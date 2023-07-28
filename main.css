@@ -1,0 +1,404 @@
+body{
+ background-color: rgb(32,33,36);
+}
+
+.header{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    position: absolute;
+    width: 60vw;
+    margin-top: 32%;
+}
+
+.input1 input{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(32,33,36);
+    position: absolute;
+    left: 31%;
+    bottom: 45%;
+    height: 4.9%;
+    border: 0.01rem solid rgb(175, 175, 175);
+    border-radius: 4rem;
+    width: 38%;
+}
+
+.input1 input:hover{
+    background: rgb(74, 74, 74);
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.input2 input{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top:  57%;
+    left:40%;
+    height: 4.8%;
+    border: none;
+    border-radius: 4rem;
+    width: 7.5rem;
+}
+
+.input3 input{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    position: absolute;
+    top:  57%;
+    left:50.5%;
+    height: 4.8%;
+    border: none;
+    border-radius: 4rem;
+    width:9rem;
+}
+
+.input2 input:hover{
+    background-color: rgb(53, 53, 53);
+    border: 0.03rem solid rgb(138, 138, 138);
+}
+
+.input3 input:hover{
+    background-color: rgb(53, 53, 53);
+    border: 0.03rem solid rgb(138, 138, 138);
+}
+
+
+
+.text{
+    font-size: 1rem;
+    color: rgb(211, 113, 113);
+    margin: 2% 0 0 2%;
+}
+
+.hr{
+    border: 1px solid rgb(64, 64, 64);
+}
+
+.advanced_h2{
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+    margin: 3% 0 0 2%;
+}
+
+.form_text h3{
+    color: rgb(171, 171, 171);
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.all{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form_box{
+    width: 40%;
+}
+
+.form_box input{
+    background-color: rgb(32,33,36);
+    border: 0.1rem solid rgb(80, 80, 80);
+    width: 100%;
+    height: 1.7rem;
+    color: white;
+    cursor: text;
+}
+
+.form_text{
+    width: 15%;
+
+}
+
+.adv_search input{
+    background-color:rgb(138,180,248) ;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 47%;
+}
+
+.adv_search input:hover{
+    background-color: rgb(158, 192, 246);
+}
+
+@media (max-width: 1199.98px){
+    .input2 input{
+        font-size: 1rem;
+        position: absolute;
+        left:37%;
+        height: 2rem;
+        width: 8.3rem;
+    }
+
+    .input3 input{
+        font-size: 1rem;
+        position: absolute;
+        left:51%;
+        height: 2rem;
+        width: 9rem;
+    }
+
+    .form_text{
+        width: 12%;
+    
+    }
+    .form_text{
+        width: 20%;
+    }
+
+    .adv_search input{
+        width: 5rem;
+        font-size: 0.55em;
+        padding: 0.5rem;
+    }
+    .adv_search input{
+        position: relative;
+        left: 53%;
+    }
+
+}
+
+@media (max-width: 991px){
+    .image img{
+        margin-top: 50%;
+        width: 90vw;
+    }
+
+    .input1 input{
+        font-size: 1rem;
+        height: 4.7%;
+        width: 58%;
+        position: absolute;
+        left: 21%;
+    }
+
+    .input2 input{
+        font-size: 0.9rem;
+        position: absolute;
+        left:33%;
+        height: 2rem;
+        width:8rem;
+    }
+
+    .input3 input{
+        font-size: 0.9rem;
+        position: absolute;
+        left:51%;
+        height: 2rem;
+        width: 9.8rem;
+    }
+
+    .form_text{
+        width: 25%;
+    }
+    .adv_search input{
+        position: relative;
+        left: 56.5%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .image img{
+        margin-top: 60%;
+        width: 90vw;
+    }
+
+    .input1 input{
+        font-size: 0.9rem;
+        height: 4.7%;
+        width: 58%;
+        position: absolute;
+        left: 21%;
+    }
+
+    .input2 input{
+        font-size: 0.9rem;
+        position: absolute;
+        left:31.5%;
+        height: 2rem;
+        width: 7rem;
+        gap: 2rem;
+    }
+
+    .input3 input{
+        font-size: 0.9rem;
+        position: absolute;
+        left:51.5%;
+        height: 2rem;
+        width: 8rem;
+        gap: 2rem;
+    }
+
+    .form_text{
+        width: 30%;
+    }
+    .adv_search input{
+        position: relative;
+        left: 59%;
+    }
+
+}
+
+@media (max-width: 617px){
+    .image img{
+        margin-top: 90%;
+        width: 90vw;
+    }
+
+    .input1 input{
+        font-size: 1.3rem;
+        height: 4.7%;
+        width: 48%;
+        position: absolute;
+        left: 28%;
+    }
+
+    .input2 input{
+        font-size: 0.7rem;
+        position: absolute;
+        left:33.5%;
+        height: 2rem;
+        width: 5.4rem;
+        gap: 2rem;
+    }
+
+    .input3 input{
+        font-size: 0.7rem;
+        position: absolute;
+        left:53.5%;
+        height: 2rem;
+        width: 6.1rem;
+        gap: 2rem;
+    }
+
+    .form_text{
+        width: 42%;
+    }
+
+    .adv_search input{
+        position: relative;
+        left: 67%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .image img{
+        margin-top: 120%;
+        width: 90vw;
+    }
+
+    .input1 input{
+        font-size: 0.9rem;
+        height: 4.7%;
+        width: 48%;
+        position: absolute;
+        left: 26%;
+    }
+    .input2 input{
+        font-size: 0.6rem;
+        position: absolute;
+        top:  57%;
+        left:32%;
+        height: 2rem;
+        width: 5rem;
+        gap: 2rem;
+    }
+
+    .input3 input{
+        font-size: 0.6rem;
+        position: absolute;
+        top:  57%;
+        left:52%;
+        height: 2rem;
+        width: 5.3rem;
+        gap: 2rem;
+    }
+
+    .form_text{
+        width: 42%;
+    
+    }
+    .adv_search input{
+        position: relative;
+        left: 65%;
+    }
+}
+
+@media (max-width: 365px)
+{
+    .image img{
+        margin-top: 120%;
+        width: 70vw;
+    }
+
+    .input1 input{
+        font-size: 0.8rem;
+        height: 4.7%;
+        width: 48%;
+        position: absolute;
+        left: 26%;
+    }
+
+    .input2 input{
+        font-size: 0.6rem;
+        position: absolute;
+        top:  57%;
+        left:32%;
+        height: 2rem;
+        width: 5rem;
+        gap: 2rem;
+    }
+
+    .input3 input{
+        font-size: 0.6rem;
+        position: absolute;
+        top:  57%;
+        left:52%;
+        height: 2rem;
+        width: 5.3rem;
+        gap: 2rem;
+    }
+
+    .form_text{
+        width: 42%;
+    
+    }
+    .adv_search input{
+        position: relative;
+        left: 65%;
+    }
+}
+
+
+
